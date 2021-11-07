@@ -1,7 +1,6 @@
 // preloader
 window.onload = function () {
-  //hide the preloader
-  document.querySelector('.loader_bg').style.display = "none";
+  document.querySelector('.loading-overlay ').style.display = "none";
 };
 
 // to top
