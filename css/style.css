@@ -503,6 +503,39 @@ box-shadow:none !important;
 }
 /* end our services */
 
+/* start department */
+.department{
+    margin-top: 100px;
+    background-color: rgb(245, 241, 241);
+}
+
+.department .swiper {
+    width: 100%;
+    height: 200px;
+}
+
+.department .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/* end department */
+
+
 /* start meet our team */
 .our-team{
     margin-top: 100px;
@@ -537,6 +570,12 @@ box-shadow:none !important;
     color: black;
 } */
 /* end meet our team */
+
+/* start statistics */
+.statistics{
+    margin-top: 100px;
+}
+/* end statistics */
 
 /* start make an appointment */
 .appointment{
@@ -684,7 +723,6 @@ margin-top: 70px;
 .contact-us{
     background-color: var(--colorText);
     margin-top: 50px;
-    height: 130px;
   }  
   .contact-us button{
     border: none;
@@ -694,7 +732,7 @@ margin-top: 70px;
     letter-spacing: 2px;
     text-transform: uppercase;
     background-color: black;
-    /* float: right; */
+    float: right;
   }
   /* end contact-us */
 
