@@ -262,7 +262,7 @@ span{
     background-color: black !important;
 }
 
-/* input[type=text], input[type=email],input[type=tel],input[type=time],input[type=date], select, textarea {
+input[type=text], input[type=email],input[type=tel],input[type=time],input[type=date], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid var(--colorText); 
@@ -271,7 +271,7 @@ span{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-} */
+}
 
 input[type=submit] {
     background-color: var(--colorText);
@@ -856,14 +856,6 @@ margin-top: 70px;
     color: var(--colorText);
   }
   
-  
-   .text-description{
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #707070;
-    line-height: 27px;
-  }
   
    .recents-news img{
     width: 100%;
