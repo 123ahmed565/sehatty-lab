@@ -291,7 +291,8 @@ input[type=submit]:hover {
 /* start navbar canavs */
 @media (min-width:768px) {
     .navbar-nav{
-        margin-left: 250px;
+        margin-left: 22%;
+        /* margin-left: 250px; */
     }
 }
 
