@@ -280,6 +280,12 @@ input[type=submit]:hover {
 }   
 /* end global features */
 
+/* start upperbar */
+.upperbar span{
+    word-break: break-all;
+}
+/* end upperbar */
+
 /* start navbar canvas */
 
 @media (min-width:768px) {
