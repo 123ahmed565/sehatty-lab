@@ -797,6 +797,10 @@ box-shadow:none !important;
     border: none !important;
     box-shadow: none !important;
 }
+.accordion-button::after{
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
 
 /* end medical tests */
 
