@@ -218,7 +218,7 @@ i{
 .social-icon i{
     color: #646464 !important;
     padding: 7px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .social-icon i:hover{
     background-color: var(--icon);
@@ -262,6 +262,7 @@ input[type=text], input[type=email],input[type=number],input[type=datetime-local
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    color: #817f7f;
 }
 
 input[type=submit] {
@@ -285,6 +286,7 @@ input[type=submit]:hover {
 /* start upperbar */
 .upperbar span{
     word-break: break-all;
+    font-size: 14px;
 }
 /* end upperbar */
 

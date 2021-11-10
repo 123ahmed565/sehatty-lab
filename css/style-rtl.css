@@ -217,7 +217,7 @@ i{
 .social-icon i{
     color: #646464 !important;
     padding: 7px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .social-icon i:hover{
     background-color: var(--icon);
@@ -259,7 +259,8 @@ input[type=text], input[type=email],input[type=number],input[type=datetime-local
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: #817f7f;
 }
 
 input[type=submit] {
@@ -283,6 +284,7 @@ input[type=submit]:hover {
 /* start upperbar */
 .upperbar span{
     word-break: break-all;
+    font-size: 14px;
 }
 /* end upperbar */
 
