@@ -82,3 +82,16 @@ function check(elem) {
       document.getElementById("other-div").style.display = 'none';
   }
 }
+
+  // this for form content body
+  function checkout(elem) {
+    // use one of possible conditions
+    // if (elem.value == 'Other')
+    if (elem.selectedIndex == 2) {
+        document.getElementById("other-div2").style.display = 'block';
+    } else {
+        document.getElementById("other-div2").style.display = 'none';
+    }
+  }
+  
+
