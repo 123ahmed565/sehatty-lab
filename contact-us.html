@@ -257,29 +257,33 @@
                 <div class="modal-body">
                     <form>
                         <div class="mb-3">
-                            <!-- <label for="recipient-name" class="col-form-label">Name:</label> -->
-                            <input type="text" class="form-control" id="recipient-name" placeholder="Enter Your Name *"
+                            <input type="text" class="form-control" id="recipient-name" placeholder="your name"
                                 required>
                         </div>
                         <div class="mb-3">
-                            <!-- <label for="recipient-name" class="col-form-label">phone:</label> -->
-                            <input type="text" class="form-control" id="recipient-name" placeholder="Enter Your Phone *"
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Email"
                                 required>
                         </div>
                         <div class="mb-3">
-                            <select name="" id="type" class="selects w-100" required>
-                                <option value="Home Visit" class="options">Home Visit</option>
-                                <option value="appoint for lab" class="options">appoint for lab</option>
-                            </select>
+                            <input type="number" class="form-control" id="recipient-name" placeholder="Phone"
+                                required>
                         </div>
                         <div class="mb-3">
-                            <select name="" id="type" class="selects w-100" required>
-                                <option value="Home Visit" class="options">Home Visit</option>
-                                <option value="appoint for lab" class="options">appoint for lab</option>
-                            </select>
+                            <input type="datetime-local" class="form-control" id="recipient-name"
+                                required>
                         </div>
+
+                        <select id="mySelect" onChange="check(this);">
+                            <option value="" selected hidden>--please select type of visit--</option>
+                            <option>Lab</option>
+                            <option>Home Visit</option>
+                        </select>
+                        <div id="other-div" style="display:none;">
+                            <input class="w-100" style="padding:10px; border:1px solid var(--colorText);border-radius:2%;" id="other-input"
+                                placeholder="enter your address">
+                        </div>
+
                         <div class="mb-3">
-                            <!-- <label for="message-text" class="col-form-label">Message:</label> -->
                             <textarea class="form-control" id="message-text" placeholder="Enter Your Notes *"
                                 style="height: 100px;"></textarea>
                         </div>
