@@ -77,6 +77,7 @@ body{
     animation-name: lds-heart;
     animation-iteration-count: infinite
 }
+
 @media (max-width:768px) {
     .loading-overlay .image-load{
         width: 250px;
