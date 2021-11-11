@@ -77,6 +77,21 @@ body{
     animation-name: lds-heart;
     animation-iteration-count: infinite
 }
+@media (max-width:768px) {
+    .loading-overlay .image-load{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%,-50%);
+        opacity: 1;
+        animation-name: lds-heart;
+        animation-iteration-count: infinite
+    }
+}
+
 @keyframes lds-heart {
     0% {
         transform: scale(0.0);
